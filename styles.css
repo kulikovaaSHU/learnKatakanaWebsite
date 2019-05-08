@@ -1,0 +1,76 @@
+:lang(ja-jp) { 
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	line-height: 3rem; 
+} 
+
+button:focus {
+	outline:0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: rgba(12, 74, 81, 1);
+	text-align: center;
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	color: rgba(209, 50, 118, 1);
+}
+
+.container {
+	margin: auto;
+	margin-top: 1%;
+	width: 40%;
+	padding: 2%;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+}
+
+.flashcards-button {
+	height: 150px;
+	width: 150px;
+	border-radius: 10%;
+	background-color: rgba(231, 255, 214,1);
+	box-shadow: 1px 3px 2px rgba(107, 132, 88,1);
+	border: solid 1px;
+	display: inline-block;
+	color: rgba(7, 71, 58, 1);
+	transition: 0.3s;
+	margin: 1.5%;
+}
+
+.flashcards-button:hover {
+	background-color: rgba(255, 226, 235, 1);
+	color: rgba(122, 1, 53, 1);
+	box-shadow: 1px 1px 2px rgba(122, 1, 53, 1);
+}
+
+.ui-button {
+	height: 75px;
+	width: 150px;
+	border-radius: 10%;
+	display:inline-block;
+	font-size: 16px;
+	background-color: rgba(255, 236, 130, 1);
+	border: solid 1px;
+	color: rgba(155, 51, 51, 1);
+	transition: 0.3s;
+	margin: 1%;
+}
+
+.ui-button:hover {
+	background-color: rgba(255, 193, 132, 1);
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 10px;
+	text-align: center;
+	color: rgba(175, 95, 134, 1);
+	font-size: 10px;
+}
